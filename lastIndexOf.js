@@ -18,24 +18,10 @@ function lastIndexOf(num, val) {
 
 
 
-// function lastIndexOf(num, val){
-//   let x = 0;
-//   for (let i = num.length-1; i >= 0; i--){
-//   if (val === num[i]){
-//       x = i;
-//       return x;
-//     }
-//   }
-//   return -1;
-//   }
 
 
 
-
-
-
-
-
+//              testing values:
 
 console.log(lastIndexOf([ 0, 1, 4, 1, 2 ], 2), "=?", 4);
 console.log(lastIndexOf([ 0, 1, 4, 1, 2 ], 3), "=?", -1);
